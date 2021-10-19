@@ -48,7 +48,7 @@ ascii()
 	i=0;
 
 	case ${1} in
-		printable | p | --printable | -p )
+		printable | p | --printable | -p |  )
 			for (( i = 32; i < 127; i++ ));
 			do
 				printf \\$(printf %03o ${i};);
@@ -60,6 +60,7 @@ ascii()
 };
 
 alias g='git';
+alias o='[ -e ./my_mastermind ] && rm my_mastermind; gcc -o my_mastermind my_mastermind.c';
 alias k='[ -e ./0 ] && rm 0; gcc -o 0 *.c && ./0; rm 0;';
 alias d='cd';
 alias l='ls -a --color=auto';
