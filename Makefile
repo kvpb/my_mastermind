@@ -25,7 +25,7 @@ SOURCES =	lib/libc/itoa.c\
 			src/isset.c\
 			src/strsth.c\
 			src/strwtv.c\
-			src/my_mastermind.c
+			src/play.c
 OBJECTS = $(SOURCES:.c=.o)
 TARGET = my_mastermind
 
