@@ -124,7 +124,7 @@ int					ft_isalpha(int c);
 int					ft_isdigit(int c);
 int					ft_isalnum(int c);
 int					ft_isascii(int c);
-int					ft_isprint(int c);				
+int					ft_isprint(int c);
 int					ft_toupper(int c);
 int					ft_tolower(int c);
 void*				ft_memalloc(size_t size);
@@ -161,7 +161,7 @@ size_t				ft_strnlen(const char *s, size_t maxlen);
 char*				ft_strndup(const char *s1, size_t n);
 char*				ft_stpcpy(char * dst, const char * src);
 char*				ft_stpncpy(char * dst, const char * src, size_t len);
-size_t              ft_strlcpy(char * restrict dst, const char * restrict src, size_t dstsize);
+size_t				ft_strlcpy(char * restrict dst, const char * restrict src, size_t dstsize);
 char*				ft_strcasestr(const char *haystack, const char *needle);
 char*				ft_strcasestr_l(const char *haystack, const char *needle, locale_t loc);
 int					ft_atoi_l(const char *str, locale_t loc);
@@ -176,7 +176,7 @@ int					ft_tolower_l(int c, locale_t loc);*/
 //int					strcmp(char* s_1, char* s_2);
 //int					strncmp(const char* s_1, const char* s_2, size_t n);
 //char*				itoa(int i);
-char*				i_to_a(int i);
-char*				ui_to_a(unsigned int i);
+char* i_to_a(int i);
+char* ui_to_a(unsigned int i);
 
 #endif
